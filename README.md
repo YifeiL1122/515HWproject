@@ -115,10 +115,10 @@ Located in the `Enclosure/` directory:
 
 ## Contributing
 
-Chunzhi Zheng - Product coordination, PCB design
-Yu Shi - Enclosure design, CFO
-Suzy Liu - ML model training, motor/camera trigger code
-Shiyi Chen - Integrate sensor data and trigger logic 
+Chunzhi Zheng - Product coordination, PCB design  
+Yu Shi - Enclosure design, CFO  
+Suzy Liu - ML model training, motor/camera trigger code  
+Shiyi Chen - Integrate sensor data and trigger logic  
 
 ---
 
