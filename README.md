@@ -1,4 +1,4 @@
-# 515HWproject
+# Wind Chime
 
 ## Overview
 This repository contains the implementation of a gesture recognition system using ESP32 microcontrollers and machine learning. The project includes:
@@ -30,12 +30,13 @@ This repository contains the implementation of a gesture recognition system usin
 
 ## Prerequisites
 - **Hardware**: 
-  - ESP32 microcontrollers
-  - Sensors (as specified in each ESP32 module)
+  - ESP32S3 microcontrollers
+  - Sensors (anemometer, ov2640)
+  - Motor, electromagnet
   - USB cables for programming
 - **Software**:
   - Python 3.7+
-  - ESP-IDF or Arduino IDE
+  - ESP-IDF or Arduino IDE or Arduino cloud
   - Required Python libraries (listed in `gestureML/requirements.txt`)
   - Git
 
@@ -62,6 +63,7 @@ This repository contains the implementation of a gesture recognition system usin
    - Install ESP-IDF or Arduino IDE
    - Configure ESP32 development environment
    - Install required ESP32 libraries
+   - Replace with your wifi agent and password
 
 ---
 
@@ -105,17 +107,18 @@ Located in the `Enclosure/` directory:
 
 ### Running the System
 1. Upload the appropriate ESP32 code to each module
-2. Start the receiver:
-   ```bash
-   cd gestureML/Reciever
-   python receiver.py
-   ```
-3. The system will begin processing sensor data and recognizing gestures
+2. The system will begin processing sensor data and recognizing gestures
+3. Provide enclosures according to the design files
+4. Play with the wind chime
 
 ---
 
 ## Contributing
-Please read the contribution guidelines before submitting pull requests.
+
+Chunzhi Zheng - Product coordination, PCB design
+Yu Shi - Enclosure design, CFO
+Suzy Liu - ML model training, motor/camera trigger code
+Shiyi Chen - Integrate sensor data and trigger logic 
 
 ---
 
