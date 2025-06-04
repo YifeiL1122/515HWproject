@@ -1,4 +1,4 @@
-# ESP32-C3 Rock-Paper-Scissors Wind Chime Controller
+# ESP32-C3 Rock-Paper-Scissors Windless Chime Controller
 
 ## Introduction
 This project implements a real-time Rock-Paper-Scissors hand-gesture recognition system on an ESP32-C3. A camera captures each frame, an external SceneCraft AI V2 module infers the gesture, and ESP-NOW transmits the result to a second ESP-based controller (“ESPtalk”). Upon receiving the gesture code, EspTalk drives a stepper motor to strike a wind chime: single strike for Rock, double strike for Paper, and no action for Scissors. This setup demonstrates on-device AI inference, peer-to-peer wireless communication, and low-latency motor control without a router.
