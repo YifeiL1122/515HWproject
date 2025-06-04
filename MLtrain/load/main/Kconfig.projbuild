@@ -1,0 +1,105 @@
+menu "Camera Configuration"
+
+    config CAMERA_PIN_PWDN
+        int "Power Down pin"
+        default 32
+        help
+            GPIO pin for camera power down line
+
+    config CAMERA_PIN_RESET
+        int "Reset pin"
+        default -1
+        help
+            GPIO pin for camera reset line
+
+    config CAMERA_PIN_XCLK
+        int "XCLK pin"
+        default 0
+        help
+            GPIO pin for camera XCLK line
+
+    config CAMERA_PIN_SIOD
+        int "SIOD pin"
+        default 26
+        help
+            GPIO pin for camera SIOD line
+
+    config CAMERA_PIN_SIOC
+        int "SIOC pin"
+        default 27
+        help
+            GPIO pin for camera SIOC line
+
+    config CAMERA_PIN_D7
+        int "D7 pin"
+        default 35
+        help
+            GPIO pin for camera D7 line
+
+    config CAMERA_PIN_D6
+        int "D6 pin"
+        default 34
+        help
+            GPIO pin for camera D6 line
+
+    config CAMERA_PIN_D5
+        int "D5 pin"
+        default 39
+        help
+            GPIO pin for camera D5 line
+
+    config CAMERA_PIN_D4
+        int "D4 pin"
+        default 36
+        help
+            GPIO pin for camera D4 line
+
+    config CAMERA_PIN_D3
+        int "D3 pin"
+        default 21
+        help
+            GPIO pin for camera D3 line
+
+    config CAMERA_PIN_D2
+        int "D2 pin"
+        default 19
+        help
+            GPIO pin for camera D2 line
+
+    config CAMERA_PIN_D1
+        int "D1 pin"
+        default 18
+        help
+            GPIO pin for camera D1 line
+
+    config CAMERA_PIN_D0
+        int "D0 pin"
+        default 5
+        help
+            GPIO pin for camera D0 line
+
+    config CAMERA_PIN_VSYNC
+        int "VSYNC pin"
+        default 25
+        help
+            GPIO pin for camera VSYNC line
+
+    config CAMERA_PIN_HREF
+        int "HREF pin"
+        default 23
+        help
+            GPIO pin for camera HREF line
+
+    config CAMERA_PIN_PCLK
+        int "PCLK pin"
+        default 22
+        help
+            GPIO pin for camera PCLK line
+
+    config XCLK_FREQ
+        int "XCLK Frequency"
+        default 20000000
+        help
+            The XCLK Frequency in Hertz
+            
+endmenu 

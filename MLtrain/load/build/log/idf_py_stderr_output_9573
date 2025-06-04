@@ -1,0 +1,9 @@
+CMake Error at /Users/suzyliu/esp-idf/tools/cmake/build.cmake:298 (message):
+  Failed to resolve component 'esp_dl'.
+Call Stack (most recent call first):
+  /Users/suzyliu/esp-idf/tools/cmake/build.cmake:334 (__build_resolve_and_add_req)
+  /Users/suzyliu/esp-idf/tools/cmake/build.cmake:637 (__build_expand_requirements)
+  /Users/suzyliu/esp-idf/tools/cmake/project.cmake:718 (idf_build_process)
+  CMakeLists.txt:3 (project)
+
+
