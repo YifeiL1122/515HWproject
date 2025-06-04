@@ -1,4 +1,4 @@
-# Wind Chime
+# Windless Chime
 
 ## Overview
 This repository contains the implementation of a gesture recognition system using ESP32 microcontrollers and machine learning. The project includes:
